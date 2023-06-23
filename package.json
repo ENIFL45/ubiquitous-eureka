@@ -1,0 +1,15 @@
+{
+  "name": "ubiquitous-eureka",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ENIFL45/ubiquitous-eureka.git",
+  "author": "ENIFL45 <devaraj.b@amnet-systems.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
