@@ -20,7 +20,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build and tag Docker image
-      run: docker build -t testt_server .
+      run: docker build -t devzxx7app .
 
     - name: Push Docker image
-      run: docker push testt_server
+      run: docker push devzxx7app
